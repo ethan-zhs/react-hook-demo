@@ -14,7 +14,7 @@ function useFriendStatus() {
 }
 
 export default () => {
-    const [count, setCount] = useState
+    const [count, setCount] = useState(0)
     const [isOnline, setIsOnline] = useFriendStatus()
 
     return (
